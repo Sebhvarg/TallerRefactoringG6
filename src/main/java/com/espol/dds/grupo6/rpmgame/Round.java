@@ -9,6 +9,18 @@ package com.espol.dds.grupo6.rpmgame;
  * @author Santiago
  */
 public class Round {
-    private int roundsPlayed;
+    private int roundPlayed;
+
+    public Round() {
+        this.roundPlayed = 1;
+    }
+
+    public int getRound() {
+        return roundPlayed;
+    }
+
+    public void nextRound() {
+        this.roundPlayed++;
+    }
     
 }

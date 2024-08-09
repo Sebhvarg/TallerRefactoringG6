@@ -9,10 +9,9 @@ package com.espol.dds.grupo6.rpmgame;
  * @author Santiago
  */
 public class Player {
-    private Result result;
+    private Choice choice;
     
-    public Result playerChoice(){
-        //player choice ramdon option
-        return result;
+    public Player(){
+        this.choice = choice.getChoice();
     }
 }

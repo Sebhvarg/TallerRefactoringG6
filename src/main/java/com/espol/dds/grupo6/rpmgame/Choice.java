@@ -8,11 +8,11 @@ package com.espol.dds.grupo6.rpmgame;
  *
  * @author Santiago
  */
-public class Choice implements Compare {
+public class Choice {
 
-    @Override
-    public void CompareChoice() {
-        
+    public static Choice getChoice(){
+        Choice choice = null;
+        return choice;
     }
     
 }
